@@ -50,7 +50,7 @@ class ToBinary {
         } while (value != 0);
 
         while (!values.isEmpty()) {      //while the Stack if not empty 
-            result += Integer.toString(values.pop()); //print the values in revert order (LIFO)
+            result += Integer.toString(values.pop()); //print the values in revert order (FILO)
         }
 
         return result;
